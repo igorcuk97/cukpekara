@@ -1,0 +1,53 @@
+@braon: #4e2900;
+@bela: white;
+@pozBela: white;
+@pozbraon: #4e2900;
+
+h2
+{
+	margin: 3% 0;
+	font-size: 40px;
+	color: @braon;
+	border-bottom: 3px solid #4e2900;
+}
+a
+{
+	&:hover
+	{
+		color: @braon !important;
+	}
+}
+.prijatelji
+{
+	width: 40%;
+	height: auto;
+	border: 3px solid #4e2900;
+	border-radius: 10px;
+	margin: 0 5%;
+}
+.dugme
+{
+	width: 12%;
+	height: auto;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-top: 10%;
+	h4
+	{
+		font-size: 40px;
+		color: @bela;
+		&:hover
+		{
+			color: @braon;
+		}
+	}
+	&:hover
+	{
+		background-color: @pozbela;
+	}
+}
+#mapa
+{
+	width: 100%;
+	background-color: @pozbraon;
+}

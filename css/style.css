@@ -1,0 +1,548 @@
+*
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+body, input
+{
+	font-family: 'Open Sans', sans-serif;
+}
+/* VREDNOSTI KOJE SE PONAVLJAJU */
+img
+{
+	width: 50%;
+}
+p
+{
+	font-size: 25px;
+	color: #555;
+}
+.i
+{
+	color: #646464;
+	font-style: italic;
+}
+h2
+{
+	margin: 3% 0;
+	font-size: 40px;
+	color: #4e2900;
+	border-bottom: 3px solid #4e2900;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	color: #4e2900 !important;
+}
+
+.okvir
+{
+	width: 1200px;
+}
+
+/* POCETAK SAJTA */
+/*NAVIGACIJA 768PX*/
+.nav-ikonice {
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+	display: none;
+}
+
+.nav-ikonice a {
+    float: left;
+    width: 16%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+/*HEDER*/
+#heder
+{
+	width: 100%;
+	height: auto;
+}
+#Hlogo p
+{
+	color: white !important;
+}
+#Hlogo h1 a
+{
+	color: white !important;
+}
+#Hmeni ul li a
+{
+	color: white !important;
+}
+.pocetna
+{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/coverimage.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.meni
+{
+	width: 100%;
+	height: auto;
+	color: white;
+	background-image: url('../images/cover3image.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.cukkartica
+{
+	width: 100%;
+	height: auto;
+	color: white;
+	background-image: url('../images/cover2image.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.oautoru
+{
+	width: 100%;
+	height: auto;
+	color: white;
+	background-image: url('../images/cover1image.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.kontakt
+{
+	width: 100%;
+	height: auto;
+	color: white;
+	background-image: url('../images/cover5image.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.galerija
+{
+	width: 100%;
+	height: auto;
+	color: white;
+	background-image: url('../images/cover4image.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.pocetna #Hlogo p
+{
+	color: black !important;
+}
+.pocetna #Hlogo h1 a
+{
+	color: black !important;
+}
+.pocetna #Hmeni ul li a
+{
+	color: black !important;
+}
+.pocetna .nav-ikonice a
+{
+	color: black !important;
+}
+#Hmeni ul
+{
+	padding: 10px 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+#Hmeni ul li a
+{
+	font-size: 20px;
+	color: black;
+}
+#Hlogo
+{
+	padding: 23%;
+}
+#Hlogo h1 a
+{
+	font-size: 100px;
+	color: black;
+}
+#Hlogo p
+{
+	margin-top: 10px;
+	color: black;
+}
+/*SADRZAJ SAJTA*/
+/*SADRZAJ GLAVNE STRANE*/
+#sadrzaj
+{
+	width: 100%;
+	height: auto;
+}
+.Sbelitxt
+{
+	width: 100%;
+	height: auto;
+	padding: 11% 0;
+}
+.Sbelitxt p
+{
+	width: 80%;
+	margin: 3% 10%;
+}
+.Sslikatxt
+{
+	width: 100%;
+	height: auto;
+	padding: 12% 0;
+	background-image: url('../images/cover3image.jpg');
+	background-attachment: fixed;
+}
+.Sslikatxt h2
+{
+	font-size: 120px;
+	color: #fff;
+	border: none;
+	margin: 0;
+}
+.Sslikatxt h3
+{
+	font-size: 50px;
+	color: #fff;
+}
+#partneri
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.prijatelji
+{
+	width: 40%;
+	height: auto;
+	border: 3px solid #4e2900;
+	border-radius: 10px;
+	margin: 0 5%;
+}
+.dugme
+{
+	width: 12%;
+	height: auto;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-top: 10%;
+}
+.dugme h4
+{
+	font-size: 40px;
+	color: white;
+}
+.dugme:hover
+{
+	background-color: white;
+}
+.dugme h4:hover
+{
+	color: #4e2900;
+}
+.Sslikatxt ul
+{
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+    flex-wrap: wrap;
+}
+.Sslikatxt ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 100px;
+}
+.Sslikatxt h3:nth-child(2)
+{
+	margin-bottom: 5%;
+}
+#mapa
+{
+	width: 100%;
+	background-color: #4e2900;
+}
+#mapa iframe
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*MENI*/
+.hrana
+{
+	width: 100%;
+	height: auto;
+	padding-bottom: 5%;
+}
+
+/*KONTAKT + MENI sadrzaj*/
+
+.kontaktTekst
+{
+	float: left;
+	width: 16%;
+	margin: 0 auto;
+}
+.kontaktTekst p
+{
+	font-size: 15px;
+}
+.kontaktTekst img
+{
+	width: 80%;
+	border-radius:50%;
+}
+.kontaktRS
+{
+	float: left;
+	width: 16%;
+	margin: 0 auto;
+}
+.kontaktRS p
+{
+	font-size: 12px;
+}
+.kontaktRS img
+{
+	width: 80%;
+	border-radius:50%;
+}
+/*FORMA*/
+.formfix
+{
+	margin-top: -7%;
+}
+.Sforma
+{
+	width: 70%;
+	margin-bottom: 5%;
+}
+.Sforma input[type=text], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Sforma input[type=email], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Sforma input[type=tel], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Sforma textarea
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Sforma input[type=submit]
+{
+    width: 100%;
+    background-color: #4e2900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Sforma input[type=submit]:hover
+{
+    background-color: #f1af68;
+}
+.Sforma input[type=reset]
+{
+    width: 100%;
+    background-color: #4e2900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Sforma input[type=reset]:hover
+{
+    background-color: #f1af68;
+}
+.Sforma 
+{
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+}
+/*GALERIJA*/
+
+#galerija
+{
+	padding: 5% 0;
+}
+#galerija a
+{
+	text-decoration: none;
+}
+#galerija img
+{
+	width: 30%;
+}
+#galerija a:hover
+{
+	opacity: 0.8;
+}
+
+/*FUTER*/
+#futer
+{
+	width: 100%;
+	height: auto;
+	background-color: #4e2900;
+}
+
+#Fgore
+{
+	width: 15%;
+	height: auto;
+	padding-top: 2%;
+}
+#Fgore ul
+{
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+    flex-wrap: wrap;
+}
+#Fgore ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+#Fdole
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+#Fdole p{
+	color: white;
+	font-size: 15px;
+	padding: 1% 0;
+}
+#Fdole a{
+	color: white;
+}
+
+.cleaner
+{
+	clear: both;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width:1200px)
+	{
+		.okvir{width: 90%;}
+		#Hlogo h1 a{font-size: 95px;}
+		#Hlogo p{font-size: 21px;}
+		.Sslikatxt h2{font-size: 100px;}
+		.Sslikatxt h3{font-size: 40px;}
+		.Sslikatxt ul li a {font-size: 95px;}
+		/* #Dcar{} */
+		#Dforma {width: 70px;}
+		.prijatelji{width: 30%;
+					height: auto;
+					margin: 0 10%;}
+	}
+@media screen and (max-width:1024px)
+	{
+		img{width: 80%;}
+		#Fgore {width: 50%;}
+		#Hlogo p{font-size: 20px;}
+		#Dforma {width: 150px;}
+		.kontaktRS {width: 26%;padding-left: 5%;}
+		.kontaktTekst {width: 33.333%;}
+		.Sslikatxt h2 {font-size: 70px;}
+		.Sslikatxt h3 {font-size: 50px;}
+		.Sslikatxt h3:nth-child(2){margin-bottom: 5%;}
+		.Sslikatxt ul li a {font-size: 90px;}
+	}
+@media screen and (max-width:768px)
+	{
+		.nav-ikonice{display: inline;}
+		#Hmeni{display: none;}
+		img{width: 70%;}
+		.okvir{width: 80%;}
+		h2 {font-size: 55px;margin: 3% 0%;}
+		#Hlogo h1 a {font-size: 60px;}
+		#Hlogo p {font-size: 25px;}
+		#Fgore {width: 50%;}
+		.Sslikatxt h2 {font-size: 70px;}
+		.Sslikatxt h3 {font-size: 35px;}
+		.Sslikatxt h3:nth-child(2){margin-bottom: 5%;}
+		.Sslikatxt ul li a {font-size: 60px;}
+		#Dforma {width: 150px;}
+		#Dmeni {width: 100px;}
+		#Dmeni h4{font-size: 35px;}
+		.kontaktTekst {width: 33.333%;}
+		.kontaktRS {width: 45%;}
+		#galerija img {width: 45%;}
+	}
+@media screen and (max-width: 500px)
+	{
+		#galerija img {width: 100%; margin-bottom: 5%;}
+		.kontaktRS p{font-size: 11px;}
+	}
+@media screen and (max-width:320px)
+	{
+		h2{font-size: 24px; margin: 3% 3%;}
+		#Hlogo h1 a {font-size: 37px;}
+		#Hlogo p {font-size: 10px;}
+		.okvir p{font-size: 12px;}
+		.Sslikatxt h2 {font-size: 33px;}
+		.Sslikatxt h3 {font-size: 14px;}
+		.Sslikatxt h3:nth-child(2){margin-bottom: 5%;}
+		#Dmeni {width: 100px;}
+		#Dmeni h4{font-size: 35px;}
+		.Sslikatxt ul li a {font-size: 40px;}
+		#Fgore {width: 75%;}
+		#Fgore ul li a{font-size: 20px;}
+		#Fdole p{font-size: 12px;}
+		.kontaktTekst {width: 50%;}
+		#Dcar {width: 70px;}
+		#Dforma{width: 130px;}
+		#Dforma h4{font-size: 35px;}
+		.Sforma textarea { padding: 50px 20px;}
+		.kontaktRS {width: 100%;}
+		#galerija img {width: 100%; margin-bottom: 5%;}
+	}
